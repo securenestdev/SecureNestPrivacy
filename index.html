@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Secure Nest</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px 20px 80px;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #fafbfd;
+        }
+        h1 {
+            color: #141E4C;
+            font-size: 28px;
+            margin-bottom: 4px;
+        }
+        h2 {
+            color: #141E4C;
+            font-size: 18px;
+            margin-top: 32px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .updated {
+            color: #6b7280;
+            font-size: 13px;
+            margin-bottom: 24px;
+        }
+        ul { padding-left: 20px; }
+        li { margin: 6px 0; }
+        .highlight {
+            background: #eef2ff;
+            border-left: 4px solid #3387FA;
+            padding: 14px 16px;
+            border-radius: 6px;
+            margin: 16px 0;
+        }
+        a { color: #3387FA; }
+        code {
+            background: #eef2ff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 16px;
+            border-top: 1px solid #e5e7eb;
+            color: #6b7280;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy — Secure Nest</h1>
+    <p class="updated">Last updated: 17 November 2026</p>
+
+    <p>Secure Nest is built privacy-first. This policy explains exactly
+    what the app does with your information. If anything here is
+    unclear, please contact us.</p>
+
+    <div class="highlight">
+        <strong>The short version:</strong> Your photos, videos, audio,
+        documents, filenames and album names never leave your device.
+        They are encrypted on your iPhone with a key we do not have.
+    </div>
+
+    <h2>Your vault stays on your device</h2>
+    <p>The files you add to Secure Nest and the names of your albums
+    and items are stored only on your iPhone. They are encrypted before
+    being written to disk. We cannot read them because the encryption
+    key is generated on your device and never sent to any server.</p>
+
+    <h2>How encryption works</h2>
+    <ul>
+        <li>Every file is encrypted with <strong>AES-256-GCM</strong>,
+        an industry standard used by banks and governments.</li>
+        <li>A unique 256-bit encryption key is generated the first time
+        you sign in and stored in the Apple Secure Enclave / iOS
+        Keychain. It is tied to this device and never leaves it.</li>
+        <li>Filenames, album names and your profile information are
+        also encrypted before being saved to local storage.</li>
+        <li>Your 4-digit PIN protects access to the app. Face ID or
+        Touch ID can unlock the vault as a shortcut; your biometric
+        data stays on your device and is never accessible to us.</li>
+    </ul>
+
+    <h2>What we DO collect</h2>
+    <p>We use Firebase (Google) for sign-in. The only personal data
+    stored on our servers is:</p>
+    <ul>
+        <li>Your email address — used for login and password reset.</li>
+        <li>Your password — stored in hashed form by Firebase. We
+        never see it in plain text.</li>
+        <li>Basic sign-in events (time, device type) used only to
+        detect abuse.</li>
+    </ul>
+    <p>Firebase Crashlytics sends us anonymous crash reports (function
+    name, line number, device model, iOS version) when the app stops
+    unexpectedly. Firebase Analytics records basic usage events
+    (screens visited, feature counts, session duration). Neither of
+    these contain content from your vault.</p>
+
+    <h2>What we DO NOT collect</h2>
+    <ul>
+        <li>We do NOT upload your photos, videos, audio, or files.</li>
+        <li>We do NOT see your filenames or album names.</li>
+        <li>We do NOT share or sell any data to third parties.</li>
+        <li>We do NOT run ads inside Secure Nest.</li>
+        <li>We do NOT track you across other apps or websites.</li>
+    </ul>
+
+    <h2>Device permissions we ask for</h2>
+    <ul>
+        <li><strong>Photo Library</strong> — to import photos and
+        videos into your vault.</li>
+        <li><strong>Camera / Microphone</strong> — if you record
+        directly into Secure Nest.</li>
+        <li><strong>Face ID / Touch ID</strong> — to unlock the vault
+        faster.</li>
+        <li><strong>Files</strong> — to import documents.</li>
+    </ul>
+    <p>Each permission is used only for the stated purpose.</p>
+
+    <h2>PIN security and auto-wipe</h2>
+    <p>For your protection, after too many wrong PIN attempts the app
+    temporarily locks itself. The wait time increases at 5, 10, 15,
+    and 20 failed attempts. After 23 wrong attempts spread across
+    multiple 24-hour lockouts, the vault is automatically erased from
+    the device to prevent brute-force attacks.</p>
+    <p>If you forget your PIN, tap <strong>"Forgot PIN?"</strong> on
+    the lock screen to recover by confirming your account password
+    instead. You will then be able to set a new PIN without losing
+    your data.</p>
+
+    <h2>Deleting your account</h2>
+    <p>Delete Account inside Settings will:</p>
+    <ul>
+        <li>Remove all encrypted files from this device.</li>
+        <li>Delete the encryption key — making any backups unreadable.</li>
+        <li>Delete your Firebase account (email + login info).</li>
+    </ul>
+    <p>This is permanent and cannot be undone.</p>
+
+    <h2>Children</h2>
+    <p>Secure Nest is not intended for users under 13 (or the age of
+    digital consent in your country, whichever is higher).</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If we materially change this policy, you will be notified
+    in-app before the change takes effect. The "Last updated" date at
+    the top of this page will also change.</p>
+
+    <h2>Contact</h2>
+    <p>Questions, concerns or privacy requests:</p>
+    <p><strong>Email:</strong> <a href="mailto:securenest.dev@gmail.com">securenest.dev@gmail.com</a><br>
+<strong>Location:</strong> India</p>
+
+<footer>
+    &copy; 2026 Secure Nest. All rights reserved.
+    </footer>
+
+</body>
+</html>
